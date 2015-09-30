@@ -4,6 +4,8 @@ This plugin was a prototype that I developed back in 2013. I am too busy with
 other stuff to make it a commercial plugin so I am releasing the (bad) source
 code to the public under Apache License v2.
 
+To understand how the plugin works, check the files in the "examples" folder!
+
 __Features__
 
 - MoGraph XPresso Effector - drive clones via XPresso
