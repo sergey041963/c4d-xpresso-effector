@@ -1,0 +1,57 @@
+STRINGTABLE {
+    IDC_CSVEFFECTOR_NAME "CSV";
+    IDC_CSVNODE_NAME "CSV Reader";
+    IDC_XPRESSOEFFECTOR_NAME "XPresso";
+    IDC_MODATANODE_NAME "MoData";
+    IDC_XPE_NAME "XPresso Effector";
+    IDC_POLYSIZEEFFECTOR_NAME "PolySize";
+
+    IDC_CSVEFFECTOR_NOTREGISTERED "CSV Effector could not be registered.";
+    IDC_CSVNODE_NOTREGISTERED "CSV Node could not be registered.";
+    IDC_XPRESSOEFFECTOR_NOTREGISTERED "XPresso Effector could not be registered.";
+    IDC_MODATANODE_NOTREGISTERED "MoData Node could not be registered.";
+    IDC_XPE_NOTREGISTERED "XPresso Effector group type could not be registered.";
+
+    IDC_CSVEFFECTOR_STATS_FORMAT "# Row(s), # Column(s)";
+    IDC_CSVEFFECTOR_STATS_NOFILE "File not found.";
+    IDC_CSVEFFECTOR_STATS_UNKOWNERROR "Unknown error.";
+
+    IDC_CSVNODE_FILENAME "Filename";
+    IDC_CSVNODE_HEADER "Has Header";
+    IDC_CSVNODE_DELIMITER "Delimiter";
+    IDC_CSVNODE_ROWINDEX "Row Index";
+    IDC_CSVNODE_LOADED "Loaded";
+    IDC_CSVNODE_COLCOUNT_TOTAL "Total Columns";
+    IDC_CSVNODE_COLCOUNT "Current Columns";
+    IDC_CSVNODE_ROWCOUNT "Row Count";
+
+    IDC_CSVNODE_INVALIDPORT "Unkown Column";
+    IDC_CSVNODE_TABLECOLUMN_PREFIX "Column: ";
+
+    IDC_MODATANODE_PORT_INDEX "Clone Index";
+    IDC_MODATANODE_PORT_OBJECT "MoGraph Object";
+    IDC_MODATANODE_PORT_HOST "Effector";
+    IDC_MODATANODE_PORT_COUNT "Clone Count";
+    IDC_MODATANODE_PORT_ITERCOUNT "Iteration End";
+    IDC_MODATANODE_PORT_FALLOFF "Effector Falloff";
+    IDC_MODATANODE_PORT_INDEXOUT "Clone Index";
+    IDC_MODATANODE_PORT_SELWEIGHT "Selection Weight";
+
+    IDC_MODATANODE_PORT_MATRIX "Matrix";
+    IDC_MODATANODE_PORT_COLOR "Color";
+    IDC_MODATANODE_PORT_SIZE "Size";
+    IDC_MODATANODE_PORT_UVW "UVW";
+    IDC_MODATANODE_PORT_FLAGS "Flags";
+    IDC_MODATANODE_PORT_WEIGHT "Weight";
+    IDC_MODATANODE_PORT_CLONE "Clone Offset";
+    IDC_MODATANODE_PORT_TIME "Time";
+    IDC_MODATANODE_PORT_FALLOFF_WGT "Falloff Weight";
+    IDC_MODATANODE_PORT_SPLINE_SEGMENT "Spline Segment";
+    IDC_MODATANODE_PORT_GROWTH "Growth";
+    IDC_MODATANODE_PORT_LASTMAT "Last Matrix";
+    IDC_MODATANODE_PORT_STARTMAT "Start Matrix";
+    IDC_MODATANODE_PORT_ALT_INDEX "Alternative Index";
+
+    IDC_C4DVERSIONTOOLD "XPresso Effector: Runs on R15 or newer only.";
+    IDC_REGISTERED "XPresso Effector: Registered";
+}

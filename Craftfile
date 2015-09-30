@@ -1,0 +1,54 @@
+# craftr_module(nr.xpresso_effector)
+#
+# Copyright (C) 2013-2015 Niklas Rosenstein
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing,
+# software distributed under the License is distributed on an
+# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,
+# either express or implied. See the License for the specific
+# language governing permissions and limitations under the License.
+
+session.path.append(project_dir + '/..')
+
+P = load_module('platform')
+c4d = load_module('maxon.c4d', legacy_api=True)
+
+build_dir = join(project_dir, 'build', c4d.build_dir_base)
+source_dir = join(project_dir, 'src')
+
+plugin = c4d.cdl(project_dir + '/xpresso-effector')
+sources = glob(join(source_dir, '**', '*.cpp'))
+includes = [project_dir, join(project_dir, 'include')]
+libs = []
+implicit_libs = []
+
+# Have any other modules you want to include? Easy.
+#
+# load_module('my.utils')
+# includes += my.utils.includes
+# libs += [my.utils.library]
+
+objects = c4d.obj(rmvsuffix(sources))
+objects = move(objects, source_dir, join(build_dir, 'obj'))
+
+target('Objects',
+  inputs = sources,
+  outputs = objects,
+  foreach = True,
+  command = c4d.compile + c4d.cinc(includes),
+  description = 'Building Object File (%%out)',
+)
+
+target('Plugin',
+  inputs = objects,
+  requires = [c4d.library] + libs,
+  outputs = plugin,
+  command = c4d.link + libs + implicit_libs,
+  description = 'Building Plugin File (%%out)',
+)

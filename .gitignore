@@ -1,0 +1,32 @@
+build.ninja
+.ninja_deps
+.ninja_log
+build/
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Compiled Dynamic libraries
+*.dylib
+*.dylib64
+*.so
+*.so64
+*.cdl
+*.cdl64
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Visual C++ Compiler
+*.pdb
+*.idb
+*.idp
+*.exp
+*.ilk
+vc100*
