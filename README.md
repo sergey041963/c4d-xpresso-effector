@@ -1,8 +1,9 @@
 # XPresso & CSV Effector for Cinema 4D
 
-This plugin was a prototype that I developed back in 2013. I am too busy with
-other stuff to make it a commercial plugin so I am releasing the (bad) source
+This plugin is a prototype that I developed back in 2013. I am too busy with
+other stuff to make it a commercial plugin so I am releasing the (old & bad) source
 code to the public under Apache License v2.
+Please let me know of any problems or suggestions via the [Issues][] page.
 
 To understand how the plugin works, check the files in the "examples" folder!
 
@@ -20,3 +21,5 @@ You can find the Effectors in the "MoGraph > Effectors" menu.
 -----
 
 Copyright (C) 2013-2015 Niklas Rosenstein
+
+[Issueses]: https://github.com/nr-plugins/xpresso-effector/issues
