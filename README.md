@@ -22,4 +22,4 @@ You can find the Effectors in the "MoGraph > Effectors" menu.
 
 Copyright (C) 2013-2015 Niklas Rosenstein
 
-[Issuese]: https://github.com/nr-plugins/xpresso-effector/issues
+[Issues]: https://github.com/nr-plugins/xpresso-effector/issues
