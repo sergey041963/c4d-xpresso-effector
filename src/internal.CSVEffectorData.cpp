@@ -15,6 +15,7 @@
  */
 
 #include <c4d.h>
+#include <c4d_quaternion.h>
 #include <c4d_baseeffectordata.h>
 #include <c4d_falloffdata.h>
 #include <lib_csv.h>
